@@ -534,6 +534,117 @@ body {
     padding-left: 10px;
 }
 
+.nash_zakaz_card {
+    padding-left: 20px;
+    padding-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.nash_zakaz_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.one_x_fa {
+    display: flex;
+}
+
+.one_x {
+    margin-right: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.aplle_byz {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-right: 44px;
+}
+
+.airpods_summa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+#nasj {
+    margin-left: 40px;
+    margin-right: 180px;
+}
+
+.visa_section {
+    display: flex;
+}
+
+.visa_img {
+    margin-right: 10px;
+}
+
+.visa_text {
+    margin-right: 330px;
+}
+
+.karta_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #838383;
+}
+
+.karta_section {
+    display: flex;
+}
+
+.karta {
+    align-items: center;
+    margin-right: 10px;
+}
+
+.karta_text {
+    margin-right: 340px;
+}
+
+.nomer {
+    border: none;
+    background: #D6D6D6;
+    border-radius: 15px;
+    padding: 14px 250px 13px 14px;
+    margin-bottom: 20px;
+}
+
+.last_button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(67, 216, 84, 0.25);
+    border-radius: 10px;
+    padding: 16px 175px;
+}
+
 @media (max-width: 576px) {
     .icon_whatsap {
         justify-content: space-between;
@@ -633,6 +744,7 @@ body {
     .oxirgi {
         margin-top: 20px;
     }
+
     .choose_coutnry {
         margin-bottom: 10px;
         margin-left: 21px;
@@ -641,6 +753,7 @@ body {
         background: #D6D6D6;
         border-radius: 15px;
     }
+
     .choose_coutnry_1 {
         margin-bottom: 10px;
         margin-left: 21px;
@@ -649,6 +762,7 @@ body {
         background: #D6D6D6;
         border-radius: 15px;
     }
+
     .write_dom {
         margin-bottom: 10px;
         margin-left: 21px;
@@ -657,7 +771,48 @@ body {
         background: #D6D6D6;
         border-radius: 15px;
     }
+
     #write {
-         margin-left: 21px; 
+        margin-left: 21px;
+    }
+    .aplle_byz {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 15px;
+        color: #000000;
+        margin-right: 10px;
+    }
+    #nasj {
+        margin-left: 40px;
+        margin-right: 93px;
+    }
+    .visa_text {
+        margin-right: 90px;
+    }
+    .karta_text {
+        margin-right: 98px;
+    }
+    .nomer {
+        border: none;
+        background: #D6D6D6;
+        border-radius: 15px;
+        padding: 14px 45px 13px 14px;
+        margin-bottom: 20px;
+    }
+    .last_button {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #101010;
+        box-shadow: 0px 0px 20px rgba(67, 216, 84, 0.25);
+        border-radius: 10px;
+        padding: 16px 47px;
     }    
+    
 }
